@@ -1,0 +1,4 @@
+name: User Cloud Mock Server
+values:
+  - key: url
+    value: https://883bc98e-9942-46d7-869a-97fe9c83ed51.mock.pstmn.io

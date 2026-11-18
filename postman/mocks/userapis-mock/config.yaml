@@ -1,0 +1,23 @@
+id: 01a1ee3e-9fd9-7438-93da-4b5c03a269b8
+version: 1
+name: UserAPis Mock
+slug: new-mock-c63f5
+enableSession: true
+protocol: http
+port: 3000
+autoRestartOnChange: true
+logging:
+  level: verbose
+  showBody: true
+associations:
+  - entityType: collection
+    entityId: ACA7Ce9C53D5DAC4867DcC31
+    relation: source
+    syncEnabled: true
+    meta: null
+    updatedAt: 2026-11-18T10:59:17.000Z
+scenarios:
+  - name: default
+    id: 01a1ee4f-9e21-713e-939f-a7153ecd3a6e
+    path: ./default.js
+    default: true
