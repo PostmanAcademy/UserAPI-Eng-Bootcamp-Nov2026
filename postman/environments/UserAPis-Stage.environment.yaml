@@ -1,0 +1,7 @@
+name: UserAPis Stage
+values:
+  - key: baseUrl
+    value: 'https://customer-education.postmanlabs.com'
+  - key: apiKey
+    value: '{{vault:apiKey}}'
+color: 120

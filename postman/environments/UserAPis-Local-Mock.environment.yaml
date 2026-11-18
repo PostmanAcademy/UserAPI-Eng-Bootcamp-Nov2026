@@ -1,0 +1,5 @@
+name: UserAPis Local Mock
+values:
+  - key: baseUrl
+    value: ''
+color: 240

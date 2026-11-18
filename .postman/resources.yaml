@@ -5,3 +5,21 @@ workspace:
 localResources:
   specs:
     - ../contract/index.yaml
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+cloudResources:
+  collections:
+    ../postman/collections/UserAPis: 60252837-a136d522-26e4-4cfa-af65-61697bf48c8b
+  environments:
+    ../postman/environments/UserAPis-Local-Mock.environment.yaml: 60252837-b48b3ee0-082e-405b-b56f-ee88a8452713
+    ../postman/environments/UserAPis-Stage.environment.yaml: 60252837-4d02c4e8-47e7-428a-9566-d24ec685ae79
+    ../postman/environments/User Cloud Mock Server.environment.yaml: 60252837-9e29aa93-59ec-44a8-9749-0e632a264580
+  specs:
+    ../contract/index.yaml: 00f01d44-b903-43bd-b4b1-240fb49c7d15
+  mocks:
+    ../postman/mocks/userapis-mock/config.yaml: 01a1ee3e-9fd9-7438-93da-4b5c03a269b8
+  globals:
+    ../postman/globals/workspace.globals.yaml: e01ff58c-5f16-45dd-8735-71ec13f7acb7
+resourceNameMappings:
+  specs:
+    - ../contract/index.yaml: index.yaml
