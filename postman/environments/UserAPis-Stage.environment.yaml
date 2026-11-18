@@ -3,5 +3,11 @@ values:
   - key: baseUrl
     value: 'https://customer-education.postmanlabs.com'
   - key: apiKey
-    value: '{{vault:apiKey}}'
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 267408f0-d3b0-4bfe-b5c1-5cdf16e585be
+        vaultId: 143170fa-58a3-4619-81f4-3edc30969fac
 color: 120
